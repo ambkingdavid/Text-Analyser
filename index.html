@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/jquery-3.6.1.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <script src="js/index.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <h1 class="p-4 text-center heading">Analyse Your Text For Free!!!</h1>
+    <div class="container-fluid">
+
+        <div class="px-2 wordSearch">
+            <div class="card border preview p-2">
+                <p class="showPreview"></p>
+            </div>
+        </div>
+
+        <div class="mt-3 px-2 wordSearchCount">
+            <div class="card search">
+                <p class="p-2 ">The word "<span class="wordInstance fs-6 fw-bold"></span>" appears "<span
+                        class="searchInstanceCount fw-bold"></span>" times in the passage.</p>
+            </div>
+
+        </div>
+
+        <div class="card border-0 height p-2 cards ">
+            <textarea name="" id="" cols="30" rows="10"
+                class="input form-control border">loopdaloop I like CODING "biffaroni" at Acedu muppeteer. I like to code at a Coding Bootcamp zoinks.</textarea>
+        </div>
+
+        <div class="just d-flex">
+            <div class="mt-1 py-5 px-3 form-group row ">
+                <input type="text" class="findWord form-control w-50" placeholder="Find a word...">
+                <button class="btn border border-dark submit col-3 ms-3 bg-info text-white">Search</button>
+            </div>
+
+            <div class="p-5">
+                <button class="btn border border-dark analyze bg-black text-white">Check Text Analysis</button>
+            </div>
+        </div>
+
+
+
+    </div>
+
+    <p class="count totalWordCount fs-4 mt-4 text-white px-2">This passage contains "<span
+            class="show showCount fs-4"></span>" words</p>
+    <div class="top text-white px-4">
+        
+        <h3>Top Three Words Are</h3>
+        <p class="no-input"></p>
+    </div>
+
+    <div class="resetcontain">
+        <button class="btn border bg-danger  text-white px-3 reset">Reset</button>
+    </div>
+
+    <p class="test"></p>
+
+
+
+
+
+
+</body>
+
+</html>
