@@ -1,0 +1,74 @@
+body{
+    background-color: rgb(207, 101, 101);
+    position: relative;
+}
+.resetcontain{
+    position:absolute;
+    bottom:-150px;
+    right: 65px;
+}
+.reset{
+    background-color: red;
+}
+.height{
+    width: 100%;
+}
+
+textarea:focus{
+ border:none;
+}
+
+textarea:focus{
+    border:0px;
+    outline: 0px;
+}
+
+textarea{
+    border:0px;
+}
+
+.top{
+    display:none;
+}
+
+.count{
+    display: none;
+}
+
+.input{
+    resize: none;
+    box-shadow: 2px 1px 10px;
+    background-color: bisque;
+    color: rebeccapurple;
+}
+.cards{
+    background-color: brown;
+}
+.analyze{
+    background-color: black;
+    color: white;
+}
+.just{
+    justify-content: space-between;
+    
+}
+.preview{
+    height: 30vh;
+    background-color: bisque;
+    box-shadow: 2px 1px 10px;
+    color: rebeccapurple;
+}
+.wordSearch{
+    display:none;
+}
+
+.wordSearchCount{
+    display:none;
+}
+.search{
+    height: 5vh;
+    background-color: bisque;
+    box-shadow: 2px 1px 10px;
+    color: rebeccapurple;
+}
+
