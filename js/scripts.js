@@ -1,11 +1,5 @@
 
 
-
-
-
-
-// get highest occurrence of word - word array is all lower case_
-
 // function mostOccuringWord(wordArray, countArray, countArrayCopy) {
 
 //     if (wordArray[0] === "" && wordArray.length === 1) {
@@ -121,18 +115,6 @@
 //     }
 //     return w;
 // }
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
